@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="magic.js"></script>
+
+</head>
+<body>
+    <a href="#"><img src="./images/logo_img.png" alt="logo" style="height: 90px; width: 200px;"></a>
+        
+   <!-- <a href="signin.html"><button style="float: right;" class="btn1">Sign-In</button></a>  -->
+    
+
+    <div class="login">
+        <form name='form-login' action="welcome.html">
+    
+            <h1>Sign In</h1>
+    
+            <!-- <label for="userName">Email</label> -->
+            <input type="email" id="usern" placeholder="Email or Username" required>
+    
+            <!-- <label for="userPw">Password</label> -->
+            <input type="password" id= "pass" placeholder="Password" required>
+
+    
+            <input id= "login_btn" type="submit" value="Sign In" onclick="check()">
+
+            <div class="alternative">
+                New to Netflix?
+                <a onClick="window.location='register.html';">Sign Up now</a>
+            </div>
+    
+        </form>
+    
+        
+    </div>
+    
+
+
+
+</body>
+</html>
